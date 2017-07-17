@@ -5,7 +5,7 @@ has_many: messages
 validates username, password_digest, session_token
 
 Homes:
-	id, title, price, location, bedrooms, beds, bathrooms, guest_id, host_id
+	id, title, description, price, location, bedrooms, beds, bathrooms, guest_id, host_id
 	ADD INDEX FOR EVERYTHING
 	belongs_to :host—foreign-key: host_id
 	belongs_to :guest— foreign-key: guest_id
@@ -15,8 +15,11 @@ Bookings:
 	ADD INDEX FOR guest_id
 
 Reviews:
-	id, user_id, home_id, created_at
+	id, body, user_id, home_id, created_at
+	belongs_to home
+	
   ADD INDEX home_id
+
 Messages:
   belongs_to sender and belongs_to receiver
   bonus
