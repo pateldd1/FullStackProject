@@ -23,4 +23,8 @@ AdvancedHomeSearchContainer
   AdvancedHomesIndexComponent
   PriceRange
   MoreFilters
-  
+
+HomeShowContainer
+  HomeInfoComponent
+  RequestForm
+  ReviewsComponent

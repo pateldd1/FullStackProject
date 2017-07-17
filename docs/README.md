@@ -30,10 +30,12 @@ Objective: Functioning rails project with front-end Authentication
 Phase 2: User Host: Homes Model, API, and components (2 days)
 
 Objective: User can add a home for extended stay, edit their home post, or remove the home through the API.
+They can also see all their hosted homes
 
 Phase 3: User Guest: Home Index Page, Home Show Page
 
-Objective: User can book a home and see all the available homes, make reviews and read them
+Objective: User can book a home and see all the available homes, make reviews and read them.
+They can also see all their booked trips
 
 Phase 4: Home Search
 
