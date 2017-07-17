@@ -1,0 +1,41 @@
+API Endpoints
+HTML API
+
+Root
+
+GET / - loads React web app
+JSON API
+
+Users
+
+POST /api/users
+PATCH /api/users -- Maybe
+Session
+
+POST /api/session
+DELETE /api/session
+Notes
+
+GET /api/bookings
+GET /api/hosted_homes
+
+Notes index/search
+accepts tag_name query param to list notes by tag
+accepts pagination params (if I get there)
+
+POST /api/hosted_homes
+GET /api/hosted_homes/:id
+PATCH /api/hosted_homes/:id
+DELETE /api/hosted_homes/:id
+
+POST /api/bookings
+GET /api/bookings/:id
+PATCH /api/bookings/:id
+DELETE /api/bookings/:id
+
+Messages
+
+GET /api/messages/:user_id
+POST /api/messages/:user_id
+GET /api/messages/:user_id
+DELETE /api/messages/:user_id
